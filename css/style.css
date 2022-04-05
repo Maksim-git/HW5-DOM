@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.form{
+    background-color: rgb(106 209 106);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__wrapper{
+   width: 365px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   margin: 0 20px;
+   padding: 30px 0px 15px;
+}
+.form__wrapper_color{
+    background-color: white;
+    box-shadow: 9px 8px 19px -3px rgba(0,0,0,0.49);
+}
+
+.form__input{
+    padding: 15px;
+    margin: 0px 30px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.input-login_color{
+    background-color: #eaeaea	;
+}
+
+.form__button{
+    padding: 8px;
+    margin: 0px 30px 0px;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.form__button:hover{
+    background-color: rgb(30 188 30);
+    cursor: pointer;
+}
+
+.form__button_color{
+    background-color: rgb(27, 212, 27);
+    color: white;
+}
+.form__paragraph{
+    text-align: center;
+}
+.form__paragraph_color{
+    color: #A9A9A9;
+}
+.form__link-create{
+    text-decoration: none;
+}
+.form__link-create_color{
+    color: rgb(27, 212, 27);
+}
+.form__link-create_color:hover{
+    color: rgb(64 146 64);
+}
