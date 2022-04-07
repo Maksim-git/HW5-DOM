@@ -7,6 +7,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .form__wrapper{
@@ -44,6 +45,7 @@ body{
 .form__button:hover{
     background-color: rgb(30 188 30);
     cursor: pointer;
+    transition: margin-right 2s;
 }
 
 .form__button_color{
@@ -65,3 +67,13 @@ body{
 .form__link-create_color:hover{
     color: rgb(64 146 64);
 }
+
+/* Notificathion */
+
+.alert {
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+  }
